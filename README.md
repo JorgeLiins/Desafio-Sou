@@ -4,13 +4,9 @@ Olá, eu me chamo Jorge Lins e venho apresentar o meu desafio para sou energy
 
 ## Sumário
 
-- [Instalação](#autor)
-- [Desafio](#desafio)
-  - [Screenshots](#screenshots)
-- [Features](#features)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalacao)
-- [Uso](#compile-and-minify-for-production)
+- [Desafio](#desafio)
+- [Explicação](#Explicação-de-como-realizei-os-requisitos)
 
 
 ## Instalação
@@ -41,8 +37,8 @@ contendo: Um botão para ativar/desativar a exibição da notificação:
 
 - Prints: 
 
-![](./img/Modal1)
-![](./img/Modal2)
+![](./img/Modal1.png)
+![](./img/Modal2.png)
 
 2. O sistema deve verificar se o usuário já aceitou os termos da política de privacidade
 previamente, para evitar múltiplas notificações.
