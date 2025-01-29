@@ -12,6 +12,16 @@ Olá, eu me chamo Jorge Lins e venho apresentar o meu desafio para sou energy
 ## Instalação
 
 
+```
+Dê clone no meu git:
+- git clone https://github.com/JorgeLiins/Desafio-Sou.git
+
+após o clone, suba o docker usando:
+- docker compose up -d
+
+
+```
+
 
 ## Desafio
 
@@ -37,8 +47,8 @@ contendo: Um botão para ativar/desativar a exibição da notificação:
 
 - Prints: 
 
-![](./img/Modal1.png)
-![](./img/Modal2.png)
+![](./img/Modal1)
+![](./img/Modal2)
 
 2. O sistema deve verificar se o usuário já aceitou os termos da política de privacidade
 previamente, para evitar múltiplas notificações.
