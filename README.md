@@ -19,6 +19,31 @@ Dê clone no meu git:
 após o clone, suba o docker usando:
 - docker compose up -d
 
+Depois disso use os seguintes comandos:
+
+bin/start
+
+bin/setup magento.test
+
+Você abre o projeto na ide de preferencia, pega as pastas code e design que estão no zip e extrai elas para dentro de src/app
+
+Depois de fazer isso, você precisa rodar alguns comandos
+
+bin/magento module:disable Magento_TwoFactorAuth
+
+bin/magento module:enable Modal_Promotion Terms_Conditions
+
+bin/magento setup:upgrade
+
+bin/magento setup:di:compile
+
+bin/magento cache:flush
+
+Pronto, o seu projeto deve estar online com os modulos criados para o desafio
+
+Você pode ver o login original do admin dentro do arquivo: /env/magento.env
+
+
 
 ```
 
@@ -44,6 +69,28 @@ já aceitou ou não os termos de privacidade.
 contendo: Um botão para ativar/desativar a exibição da notificação:
 
 - Eu fiz uma notificação que aparece sempre na primeira vez que o cliente entra no site, a resposta da notificação fica salva nos cookies do navegador, então caso o cliente opte por não receber notificações, não vai mais aparecer(ah não ser que o cliente resete os coookies do navegador).
+
+- Estrutura do modulo:
+
+```
+app/code/Modal/Promotion/
+├── etc/
+│   ├── module.xml
+│   └── frontend/
+│       └── routes.xml
+├── registration.php
+├── view/
+│   └── frontend/
+│       ├── layout/
+│       │   └── default.xml
+│       ├── templates/
+│       │   └── modal.phtml
+│       └── web/
+│           ├── css/
+│           │   └── styles.css
+│           └── js/
+│               └── modal.js
+```
 
 - Prints: 
 
