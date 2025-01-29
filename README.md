@@ -25,7 +25,7 @@ bin/start
 
 bin/setup magento.test
 
-Você abre o projeto na ide de preferencia, pega as pastas code e design que estão no zip e extrai elas para dentro de src/app
+Você abre o projeto na ide de preferencia, pega as pastas code e design que estão no .rar e extrai elas para dentro de src/app
 
 Depois de fazer isso, você precisa rodar alguns comandos
 
