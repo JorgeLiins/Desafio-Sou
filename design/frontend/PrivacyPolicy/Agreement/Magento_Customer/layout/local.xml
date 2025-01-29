@@ -1,0 +1,5 @@
+<customer_account_create>
+    <reference name="customer_form_register">
+        <block type="core/template" name="privacy_policy" template="customer/form/privacy_policy.phtml" />
+    </reference>
+</customer_account_create>
