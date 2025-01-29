@@ -1,9 +1,0 @@
-<layout>
-    <adminhtml_customer_index>
-        <reference name="customer.grid">
-            <action method="setBlockName">
-                <name>seunamespace_seumodulo/adminhtml_customer_grid</name>
-            </action>
-        </reference>
-    </adminhtml_customer_index>
-</layout>

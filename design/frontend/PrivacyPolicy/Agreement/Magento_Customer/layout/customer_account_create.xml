@@ -1,8 +1,0 @@
-<referenceBlock name="form_fields">
-    <block class="Magento\Customer\Block\Form\Renderer\Boolean" name="privacy_terms_accepted">
-        <arguments>
-            <argument name="template" xsi:type="string">Magento_Customer/form/renderer/boolean.phtml</argument>
-            <argument name="sortOrder" xsi:type="number">150</argument>
-        </arguments>
-    </block>
-</referenceBlock>
